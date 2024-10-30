@@ -335,7 +335,7 @@ export async function fetchAnimeEpisodes(
   provider: string = "gogoanime",
   dub: boolean = false
 ) {
-  const params = new URLSearchParams({ provider, dub: dub ? "true" : "falase" })
+  const params = new URLSearchParams({ provider, dub: dub ? "true" : "false" })
   const url = `${BASE_URL}meta/anilist/episodes/${animeId}?${params.toString()}`
   const cacheKey = generateCacheKey(
     "animeEpisodes",
