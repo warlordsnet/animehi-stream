@@ -26,7 +26,6 @@ const nextConfig = {
       allowedOrigins: [
         "literate-acorn-gpjx5qg4w44fp6j.github.dev",
         "localhost:3000",
-        "hinimetest.netlify.app",
       ],
     },
   },
